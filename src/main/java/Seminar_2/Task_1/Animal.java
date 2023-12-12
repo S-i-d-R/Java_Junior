@@ -1,2 +1,22 @@
-package Seminar_2.Task_1;public class Animal {
+package Seminar_2.Task_1;
+/*
+Абстрактный класс Animal
+ */
+public abstract class Animal {
+    public String name;
+    public int age;
+
+    public Animal(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
 }
